@@ -157,6 +157,15 @@ if not cors_origins:
         cors_origins.append(FRONTEND_URL.replace('localhost', '127.0.0.1'))
 
 CORS_ALLOWED_ORIGINS = cors_origins
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    pattern.strip()
+    for pattern in os.getenv('CORS_ALLOWED_ORIGIN_REGEXES', '').split(',')
+    if pattern.strip()
+]
+
+if not CORS_ALLOWED_ORIGIN_REGEXES and os.getenv('ALLOW_VERCEL_ORIGINS', '1') == '1':
+    CORS_ALLOWED_ORIGIN_REGEXES = [r'^https://.*\.vercel\.app$']
+
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = list(default_headers) + ['authorization']
 
