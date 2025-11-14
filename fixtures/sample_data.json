@@ -1,0 +1,1539 @@
+[
+  {
+    "model": "hospital.specialty",
+    "pk": 1,
+    "fields": {
+      "name": "Cardiolog?a",
+      "description": "Especialidad de cardiolog?a",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.specialty",
+    "pk": 2,
+    "fields": {
+      "name": "Dermatolog?a",
+      "description": "Especialidad de dermatolog?a",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.specialty",
+    "pk": 3,
+    "fields": {
+      "name": "Neurolog?a",
+      "description": "Especialidad de neurolog?a",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.specialty",
+    "pk": 4,
+    "fields": {
+      "name": "Pediatr?a",
+      "description": "Especialidad de pediatr?a",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.specialty",
+    "pk": 5,
+    "fields": {
+      "name": "Traumatolog?a",
+      "description": "Especialidad de traumatolog?a",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.specialty",
+    "pk": 6,
+    "fields": {
+      "name": "Oncolog?a",
+      "description": "Especialidad de oncolog?a",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$ZFfph1II8BSbe9za$E/W48q2Xl+chzLgxKjJkgOhsNH4pubw+KeIyDZqxHnE=",
+      "last_login": null,
+      "is_superuser": true,
+      "email": "admin@hospital.com",
+      "first_name": "Admin",
+      "last_name": "Principal",
+      "role": "ADMIN",
+      "phone": "+51 999 111 222",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 101,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$w6m6B9IOOn+HEYWb$8uP7cA4PuesC+Lp/382h/cfzzomuiPSbtVlV1EOz4TI=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "ana.ruiz@hospital.com",
+      "first_name": "Ana",
+      "last_name": "Ruiz",
+      "role": "DOCTOR",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 102,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$w6m6B9IOOn+HEYWb$8uP7cA4PuesC+Lp/382h/cfzzomuiPSbtVlV1EOz4TI=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "mateo.serrano@hospital.com",
+      "first_name": "Mateo",
+      "last_name": "Serrano",
+      "role": "DOCTOR",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 103,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$w6m6B9IOOn+HEYWb$8uP7cA4PuesC+Lp/382h/cfzzomuiPSbtVlV1EOz4TI=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "laura.perez@hospital.com",
+      "first_name": "Laura",
+      "last_name": "Perez",
+      "role": "DOCTOR",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 104,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$w6m6B9IOOn+HEYWb$8uP7cA4PuesC+Lp/382h/cfzzomuiPSbtVlV1EOz4TI=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "bruno.caceres@hospital.com",
+      "first_name": "Bruno",
+      "last_name": "Caceres",
+      "role": "DOCTOR",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 105,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$w6m6B9IOOn+HEYWb$8uP7cA4PuesC+Lp/382h/cfzzomuiPSbtVlV1EOz4TI=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "ivanna.cortes@hospital.com",
+      "first_name": "Ivanna",
+      "last_name": "Cortes",
+      "role": "DOCTOR",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 106,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$w6m6B9IOOn+HEYWb$8uP7cA4PuesC+Lp/382h/cfzzomuiPSbtVlV1EOz4TI=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "fernando.pardo@hospital.com",
+      "first_name": "Fernando",
+      "last_name": "Pardo",
+      "role": "DOCTOR",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 201,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VXYfbcsLz597z5CZ$WpHFU884dmSZFS/x79GxaWEHO5f+QypPAOcwL4t715A=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "carlos.mendez@patients.com",
+      "first_name": "Carlos",
+      "last_name": "Mendez",
+      "role": "PATIENT",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 202,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VXYfbcsLz597z5CZ$WpHFU884dmSZFS/x79GxaWEHO5f+QypPAOcwL4t715A=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "mariana.lopez@patients.com",
+      "first_name": "Mariana",
+      "last_name": "Lopez",
+      "role": "PATIENT",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 203,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VXYfbcsLz597z5CZ$WpHFU884dmSZFS/x79GxaWEHO5f+QypPAOcwL4t715A=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "pedro.sanchez@patients.com",
+      "first_name": "Pedro",
+      "last_name": "Sanchez",
+      "role": "PATIENT",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 204,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VXYfbcsLz597z5CZ$WpHFU884dmSZFS/x79GxaWEHO5f+QypPAOcwL4t715A=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "lucia.romero@patients.com",
+      "first_name": "Lucia",
+      "last_name": "Romero",
+      "role": "PATIENT",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 205,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VXYfbcsLz597z5CZ$WpHFU884dmSZFS/x79GxaWEHO5f+QypPAOcwL4t715A=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "andres.nunez@patients.com",
+      "first_name": "Andres",
+      "last_name": "Nunez",
+      "role": "PATIENT",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 206,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VXYfbcsLz597z5CZ$WpHFU884dmSZFS/x79GxaWEHO5f+QypPAOcwL4t715A=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "sofia.herrera@patients.com",
+      "first_name": "Sofia",
+      "last_name": "Herrera",
+      "role": "PATIENT",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 207,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VXYfbcsLz597z5CZ$WpHFU884dmSZFS/x79GxaWEHO5f+QypPAOcwL4t715A=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "miguel.torres@patients.com",
+      "first_name": "Miguel",
+      "last_name": "Torres",
+      "role": "PATIENT",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 208,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VXYfbcsLz597z5CZ$WpHFU884dmSZFS/x79GxaWEHO5f+QypPAOcwL4t715A=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "camila.diaz@patients.com",
+      "first_name": "Camila",
+      "last_name": "Diaz",
+      "role": "PATIENT",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 209,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VXYfbcsLz597z5CZ$WpHFU884dmSZFS/x79GxaWEHO5f+QypPAOcwL4t715A=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "julio.estevez@patients.com",
+      "first_name": "Julio",
+      "last_name": "Estevez",
+      "role": "PATIENT",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 210,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VXYfbcsLz597z5CZ$WpHFU884dmSZFS/x79GxaWEHO5f+QypPAOcwL4t715A=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "valentina.rios@patients.com",
+      "first_name": "Valentina",
+      "last_name": "Rios",
+      "role": "PATIENT",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 211,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VXYfbcsLz597z5CZ$WpHFU884dmSZFS/x79GxaWEHO5f+QypPAOcwL4t715A=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "esteban.vega@patients.com",
+      "first_name": "Esteban",
+      "last_name": "Vega",
+      "role": "PATIENT",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 212,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VXYfbcsLz597z5CZ$WpHFU884dmSZFS/x79GxaWEHO5f+QypPAOcwL4t715A=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "daniela.pizarro@patients.com",
+      "first_name": "Daniela",
+      "last_name": "Pizarro",
+      "role": "PATIENT",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 213,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VXYfbcsLz597z5CZ$WpHFU884dmSZFS/x79GxaWEHO5f+QypPAOcwL4t715A=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "gonzalo.rivera@patients.com",
+      "first_name": "Gonzalo",
+      "last_name": "Rivera",
+      "role": "PATIENT",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 214,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VXYfbcsLz597z5CZ$WpHFU884dmSZFS/x79GxaWEHO5f+QypPAOcwL4t715A=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "renata.flores@patients.com",
+      "first_name": "Renata",
+      "last_name": "Flores",
+      "role": "PATIENT",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 215,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VXYfbcsLz597z5CZ$WpHFU884dmSZFS/x79GxaWEHO5f+QypPAOcwL4t715A=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "sebastian.prado@patients.com",
+      "first_name": "Sebastian",
+      "last_name": "Prado",
+      "role": "PATIENT",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.user",
+    "pk": 216,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VXYfbcsLz597z5CZ$WpHFU884dmSZFS/x79GxaWEHO5f+QypPAOcwL4t715A=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "adriana.quispe@patients.com",
+      "first_name": "Adriana",
+      "last_name": "Quispe",
+      "role": "PATIENT",
+      "phone": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-05T10:00:00Z",
+      "groups": [],
+      "user_permissions": [],
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.doctor",
+    "pk": 1,
+    "fields": {
+      "user": 101,
+      "specialty": 1,
+      "license_number": "CAR-001",
+      "bio": "Profesional con amplia experiencia cl?nica.",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.doctor",
+    "pk": 2,
+    "fields": {
+      "user": 102,
+      "specialty": 2,
+      "license_number": "DER-002",
+      "bio": "Profesional con amplia experiencia cl?nica.",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.doctor",
+    "pk": 3,
+    "fields": {
+      "user": 103,
+      "specialty": 3,
+      "license_number": "NEU-003",
+      "bio": "Profesional con amplia experiencia cl?nica.",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.doctor",
+    "pk": 4,
+    "fields": {
+      "user": 104,
+      "specialty": 4,
+      "license_number": "PED-004",
+      "bio": "Profesional con amplia experiencia cl?nica.",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.doctor",
+    "pk": 5,
+    "fields": {
+      "user": 105,
+      "specialty": 5,
+      "license_number": "TRA-005",
+      "bio": "Profesional con amplia experiencia cl?nica.",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.doctor",
+    "pk": 6,
+    "fields": {
+      "user": 106,
+      "specialty": 6,
+      "license_number": "ONC-006",
+      "bio": "Profesional con amplia experiencia cl?nica.",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.patient",
+    "pk": 1,
+    "fields": {
+      "user": 201,
+      "document": "DNI10203040",
+      "birth_date": "1990-01-01",
+      "address": "Av. Principal 123",
+      "gender": "O",
+      "emergency_contact": "Contacto familiar",
+      "insurance": "Seguro Integral",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.patient",
+    "pk": 2,
+    "fields": {
+      "user": 202,
+      "document": "DNI11223344",
+      "birth_date": "1990-01-01",
+      "address": "Av. Principal 123",
+      "gender": "O",
+      "emergency_contact": "Contacto familiar",
+      "insurance": "Seguro Integral",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.patient",
+    "pk": 3,
+    "fields": {
+      "user": 203,
+      "document": "DNI22334455",
+      "birth_date": "1990-01-01",
+      "address": "Av. Principal 123",
+      "gender": "O",
+      "emergency_contact": "Contacto familiar",
+      "insurance": "Seguro Integral",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.patient",
+    "pk": 4,
+    "fields": {
+      "user": 204,
+      "document": "DNI33445566",
+      "birth_date": "1990-01-01",
+      "address": "Av. Principal 123",
+      "gender": "O",
+      "emergency_contact": "Contacto familiar",
+      "insurance": "Seguro Integral",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.patient",
+    "pk": 5,
+    "fields": {
+      "user": 205,
+      "document": "DNI44556677",
+      "birth_date": "1990-01-01",
+      "address": "Av. Principal 123",
+      "gender": "O",
+      "emergency_contact": "Contacto familiar",
+      "insurance": "Seguro Integral",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.patient",
+    "pk": 6,
+    "fields": {
+      "user": 206,
+      "document": "DNI55667788",
+      "birth_date": "1990-01-01",
+      "address": "Av. Principal 123",
+      "gender": "O",
+      "emergency_contact": "Contacto familiar",
+      "insurance": "Seguro Integral",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.patient",
+    "pk": 7,
+    "fields": {
+      "user": 207,
+      "document": "DNI66778899",
+      "birth_date": "1990-01-01",
+      "address": "Av. Principal 123",
+      "gender": "O",
+      "emergency_contact": "Contacto familiar",
+      "insurance": "Seguro Integral",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.patient",
+    "pk": 8,
+    "fields": {
+      "user": 208,
+      "document": "DNI77889900",
+      "birth_date": "1990-01-01",
+      "address": "Av. Principal 123",
+      "gender": "O",
+      "emergency_contact": "Contacto familiar",
+      "insurance": "Seguro Integral",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.patient",
+    "pk": 9,
+    "fields": {
+      "user": 209,
+      "document": "DNI88990011",
+      "birth_date": "1990-01-01",
+      "address": "Av. Principal 123",
+      "gender": "O",
+      "emergency_contact": "Contacto familiar",
+      "insurance": "Seguro Integral",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.patient",
+    "pk": 10,
+    "fields": {
+      "user": 210,
+      "document": "DNI99001122",
+      "birth_date": "1990-01-01",
+      "address": "Av. Principal 123",
+      "gender": "O",
+      "emergency_contact": "Contacto familiar",
+      "insurance": "Seguro Integral",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.patient",
+    "pk": 11,
+    "fields": {
+      "user": 211,
+      "document": "DNI10111213",
+      "birth_date": "1990-01-01",
+      "address": "Av. Principal 123",
+      "gender": "O",
+      "emergency_contact": "Contacto familiar",
+      "insurance": "Seguro Integral",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.patient",
+    "pk": 12,
+    "fields": {
+      "user": 212,
+      "document": "DNI12131415",
+      "birth_date": "1990-01-01",
+      "address": "Av. Principal 123",
+      "gender": "O",
+      "emergency_contact": "Contacto familiar",
+      "insurance": "Seguro Integral",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.patient",
+    "pk": 13,
+    "fields": {
+      "user": 213,
+      "document": "DNI13141516",
+      "birth_date": "1990-01-01",
+      "address": "Av. Principal 123",
+      "gender": "O",
+      "emergency_contact": "Contacto familiar",
+      "insurance": "Seguro Integral",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.patient",
+    "pk": 14,
+    "fields": {
+      "user": 214,
+      "document": "DNI14151617",
+      "birth_date": "1990-01-01",
+      "address": "Av. Principal 123",
+      "gender": "O",
+      "emergency_contact": "Contacto familiar",
+      "insurance": "Seguro Integral",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.patient",
+    "pk": 15,
+    "fields": {
+      "user": 215,
+      "document": "DNI15161718",
+      "birth_date": "1990-01-01",
+      "address": "Av. Principal 123",
+      "gender": "O",
+      "emergency_contact": "Contacto familiar",
+      "insurance": "Seguro Integral",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.patient",
+    "pk": 16,
+    "fields": {
+      "user": 216,
+      "document": "DNI16171819",
+      "birth_date": "1990-01-01",
+      "address": "Av. Principal 123",
+      "gender": "O",
+      "emergency_contact": "Contacto familiar",
+      "insurance": "Seguro Integral",
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.schedule",
+    "pk": 1,
+    "fields": {
+      "doctor": 1,
+      "day_of_week": 0,
+      "start_time": "08:00:00",
+      "end_time": "12:00:00",
+      "interval_minutes": 30,
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.schedule",
+    "pk": 2,
+    "fields": {
+      "doctor": 2,
+      "day_of_week": 1,
+      "start_time": "09:00:00",
+      "end_time": "13:00:00",
+      "interval_minutes": 30,
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.schedule",
+    "pk": 3,
+    "fields": {
+      "doctor": 3,
+      "day_of_week": 2,
+      "start_time": "10:00:00",
+      "end_time": "14:00:00",
+      "interval_minutes": 30,
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.schedule",
+    "pk": 4,
+    "fields": {
+      "doctor": 4,
+      "day_of_week": 3,
+      "start_time": "08:30:00",
+      "end_time": "12:30:00",
+      "interval_minutes": 30,
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.schedule",
+    "pk": 5,
+    "fields": {
+      "doctor": 5,
+      "day_of_week": 4,
+      "start_time": "11:00:00",
+      "end_time": "15:00:00",
+      "interval_minutes": 30,
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.schedule",
+    "pk": 6,
+    "fields": {
+      "doctor": 6,
+      "day_of_week": 5,
+      "start_time": "09:30:00",
+      "end_time": "13:30:00",
+      "interval_minutes": 30,
+      "active": true,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 1,
+    "fields": {
+      "patient": 1,
+      "doctor": 1,
+      "specialty": 1,
+      "date": "2025-11-01",
+      "start_time": "08:00:00",
+      "end_time": "08:30:00",
+      "status": "PENDING",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "PRESENTIAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 2,
+    "fields": {
+      "patient": 2,
+      "doctor": 2,
+      "specialty": 2,
+      "date": "2025-11-03",
+      "start_time": "08:30:00",
+      "end_time": "09:00:00",
+      "status": "CONFIRMED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "VIRTUAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 3,
+    "fields": {
+      "patient": 3,
+      "doctor": 3,
+      "specialty": 3,
+      "date": "2025-11-05",
+      "start_time": "09:00:00",
+      "end_time": "09:30:00",
+      "status": "CANCELLED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "PRESENTIAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 4,
+    "fields": {
+      "patient": 4,
+      "doctor": 4,
+      "specialty": 4,
+      "date": "2025-11-07",
+      "start_time": "09:30:00",
+      "end_time": "10:00:00",
+      "status": "COMPLETED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "VIRTUAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 5,
+    "fields": {
+      "patient": 5,
+      "doctor": 5,
+      "specialty": 5,
+      "date": "2025-11-09",
+      "start_time": "10:00:00",
+      "end_time": "10:30:00",
+      "status": "PENDING",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "PRESENTIAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 6,
+    "fields": {
+      "patient": 6,
+      "doctor": 6,
+      "specialty": 6,
+      "date": "2025-11-11",
+      "start_time": "10:30:00",
+      "end_time": "11:00:00",
+      "status": "CONFIRMED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "VIRTUAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 7,
+    "fields": {
+      "patient": 7,
+      "doctor": 1,
+      "specialty": 1,
+      "date": "2025-11-13",
+      "start_time": "11:00:00",
+      "end_time": "11:30:00",
+      "status": "CANCELLED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "PRESENTIAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 8,
+    "fields": {
+      "patient": 8,
+      "doctor": 2,
+      "specialty": 2,
+      "date": "2025-11-15",
+      "start_time": "11:30:00",
+      "end_time": "12:00:00",
+      "status": "COMPLETED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "VIRTUAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 9,
+    "fields": {
+      "patient": 9,
+      "doctor": 3,
+      "specialty": 3,
+      "date": "2025-11-17",
+      "start_time": "08:00:00",
+      "end_time": "08:30:00",
+      "status": "PENDING",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "PRESENTIAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 10,
+    "fields": {
+      "patient": 10,
+      "doctor": 4,
+      "specialty": 4,
+      "date": "2025-11-19",
+      "start_time": "08:30:00",
+      "end_time": "09:00:00",
+      "status": "CONFIRMED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "VIRTUAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 11,
+    "fields": {
+      "patient": 11,
+      "doctor": 5,
+      "specialty": 5,
+      "date": "2025-11-21",
+      "start_time": "09:00:00",
+      "end_time": "09:30:00",
+      "status": "CANCELLED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "PRESENTIAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 12,
+    "fields": {
+      "patient": 12,
+      "doctor": 6,
+      "specialty": 6,
+      "date": "2025-11-23",
+      "start_time": "09:30:00",
+      "end_time": "10:00:00",
+      "status": "COMPLETED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "VIRTUAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 13,
+    "fields": {
+      "patient": 13,
+      "doctor": 1,
+      "specialty": 1,
+      "date": "2025-11-25",
+      "start_time": "10:00:00",
+      "end_time": "10:30:00",
+      "status": "PENDING",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "PRESENTIAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 14,
+    "fields": {
+      "patient": 14,
+      "doctor": 2,
+      "specialty": 2,
+      "date": "2025-11-27",
+      "start_time": "10:30:00",
+      "end_time": "11:00:00",
+      "status": "CONFIRMED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "VIRTUAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 15,
+    "fields": {
+      "patient": 15,
+      "doctor": 3,
+      "specialty": 3,
+      "date": "2025-11-29",
+      "start_time": "11:00:00",
+      "end_time": "11:30:00",
+      "status": "CANCELLED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "PRESENTIAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 16,
+    "fields": {
+      "patient": 16,
+      "doctor": 4,
+      "specialty": 4,
+      "date": "2025-12-02",
+      "start_time": "11:30:00",
+      "end_time": "12:00:00",
+      "status": "COMPLETED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "VIRTUAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 17,
+    "fields": {
+      "patient": 1,
+      "doctor": 5,
+      "specialty": 5,
+      "date": "2025-12-04",
+      "start_time": "08:00:00",
+      "end_time": "08:30:00",
+      "status": "PENDING",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "PRESENTIAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 18,
+    "fields": {
+      "patient": 2,
+      "doctor": 6,
+      "specialty": 6,
+      "date": "2025-12-06",
+      "start_time": "08:30:00",
+      "end_time": "09:00:00",
+      "status": "CONFIRMED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "VIRTUAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 19,
+    "fields": {
+      "patient": 3,
+      "doctor": 1,
+      "specialty": 1,
+      "date": "2025-12-08",
+      "start_time": "09:00:00",
+      "end_time": "09:30:00",
+      "status": "CANCELLED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "PRESENTIAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 20,
+    "fields": {
+      "patient": 4,
+      "doctor": 2,
+      "specialty": 2,
+      "date": "2025-12-10",
+      "start_time": "09:30:00",
+      "end_time": "10:00:00",
+      "status": "COMPLETED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "VIRTUAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 21,
+    "fields": {
+      "patient": 5,
+      "doctor": 3,
+      "specialty": 3,
+      "date": "2025-12-12",
+      "start_time": "10:00:00",
+      "end_time": "10:30:00",
+      "status": "PENDING",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "PRESENTIAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 22,
+    "fields": {
+      "patient": 6,
+      "doctor": 4,
+      "specialty": 4,
+      "date": "2025-12-14",
+      "start_time": "10:30:00",
+      "end_time": "11:00:00",
+      "status": "CONFIRMED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "VIRTUAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 23,
+    "fields": {
+      "patient": 7,
+      "doctor": 5,
+      "specialty": 5,
+      "date": "2025-12-16",
+      "start_time": "11:00:00",
+      "end_time": "11:30:00",
+      "status": "CANCELLED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "PRESENTIAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 24,
+    "fields": {
+      "patient": 8,
+      "doctor": 6,
+      "specialty": 6,
+      "date": "2025-12-18",
+      "start_time": "11:30:00",
+      "end_time": "12:00:00",
+      "status": "COMPLETED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "VIRTUAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 25,
+    "fields": {
+      "patient": 9,
+      "doctor": 1,
+      "specialty": 1,
+      "date": "2025-12-20",
+      "start_time": "08:00:00",
+      "end_time": "08:30:00",
+      "status": "PENDING",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "PRESENTIAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 26,
+    "fields": {
+      "patient": 10,
+      "doctor": 2,
+      "specialty": 2,
+      "date": "2025-12-22",
+      "start_time": "08:30:00",
+      "end_time": "09:00:00",
+      "status": "CONFIRMED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "VIRTUAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 27,
+    "fields": {
+      "patient": 11,
+      "doctor": 3,
+      "specialty": 3,
+      "date": "2025-12-24",
+      "start_time": "09:00:00",
+      "end_time": "09:30:00",
+      "status": "CANCELLED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "PRESENTIAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 28,
+    "fields": {
+      "patient": 12,
+      "doctor": 4,
+      "specialty": 4,
+      "date": "2025-12-26",
+      "start_time": "09:30:00",
+      "end_time": "10:00:00",
+      "status": "COMPLETED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "VIRTUAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 29,
+    "fields": {
+      "patient": 13,
+      "doctor": 5,
+      "specialty": 5,
+      "date": "2025-12-28",
+      "start_time": "10:00:00",
+      "end_time": "10:30:00",
+      "status": "PENDING",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "PRESENTIAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "hospital.appointment",
+    "pk": 30,
+    "fields": {
+      "patient": 14,
+      "doctor": 6,
+      "specialty": 6,
+      "date": "2025-12-30",
+      "start_time": "10:30:00",
+      "end_time": "11:00:00",
+      "status": "CONFIRMED",
+      "reason": "Control rutinario",
+      "notes": "",
+      "channel": "VIRTUAL",
+      "created_by": 1,
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  }
+]
